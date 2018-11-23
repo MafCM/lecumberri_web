@@ -1,4 +1,4 @@
-#Sitio Lecumberri
+# Sitio Lecumberri
 - Inicio
    - fotografías del lugar
    - descripción del proyecto
@@ -16,4 +16,4 @@
     - descripción de la expocisión
     - Objetivo
     - Recorrido de la Expocisión video 360
-    - artefactos 
+    - artefactos
