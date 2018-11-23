@@ -15,5 +15,5 @@
    - Expocisión
      - descripción de la expocisión
     - Objetivo
-     - Recorrido de la Expocisión video 360
-     - artefactos
+      - Recorrido de la Expocisión video 360
+      - artefactos
