@@ -12,7 +12,7 @@
      - imagenes de los presos
    - Encarcelamiento de Siqueiros
      - historia y fotografías de Siqueiros
-   - Expocisión
+  - Expocisión
      - descripción de la expocisión
     - Objetivo
       - Recorrido de la Expocisión video 360
