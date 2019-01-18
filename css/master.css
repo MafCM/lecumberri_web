@@ -1,19 +1,21 @@
 * {
-  outline: 1px solid lime;
-}
-/* variables */
-/* variables */
+  font-family: 'Noto Serif', serif;
+
+  }
+
+  /* variables */
 :root {
-  --color-primario: #00ff00;
-  --color-secundario: #0ff000;
-  --color-link: #ff0000;
-  --color-link-hover: #f00000;
+  --color-primario: #B3A994;
+  --color-secundario: #33322D;
+  --color-terciario:#2A2B2A;
+  --color-link: #661906;
+  --color-link-hover: #F4F3ED;
   --altura-header: 75px;
   --altura-seccion: 100vh;
 }
 /* resets */
 body {
-  /* background-color: black; */
+  background-color: var(--color-primario)
 }
 div, section, article, ul, nav {
   height: 100%;
@@ -37,6 +39,7 @@ form {
 }
 #main,#info, #ubicacion, #participantes {
   padding-top: var(--altura-header);
+  text-align: right;
 }
 /* header */
 header {
@@ -62,27 +65,19 @@ figure img {
 /* heroscreen */
 #heroscreen {
   position: relative;
+  /* background-color: black; */
 }
+.heroscreen_background video {
+  height: 100%;
+  width: 100%;
+}
+
 .heroscreen_background {
+  background-color: rgba(0, 0, 0, 0.9);
   overflow: hidden;
   position: absolute;
   padding: 0;
   z-index: -1;
-}
-.heroscreen_background img {
-  height: 100%;
-  width: 100%;
-}
-.heroscreen_text {
-  position: absolute;
-  left: 0;
-  z-index: 0;
-}
-.heroscreen_text h1 {
-  font-size: 6em
-}
-.heroscreen_text h3 {
-  font-size: 4em
 }
 /* info */
 /*  */
