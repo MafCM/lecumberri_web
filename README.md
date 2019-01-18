@@ -1,9 +1,19 @@
-#Sitio Lecumberri
+# Sitio Lecumberri
 - Inicio
- - fotografías del lugar
+   - fotografías del lugar
+   - descripción del proyecto
 - About
- - descripción del proyecto
+   - Objetivo del proyecto
+   - Imagenes del proyecto
  - Historia
-  - Historia del palacio de Lecumberri
+   - Historia del palacio de Lecumberri
+     - imagenes de Lecumberri a traves del tiempo
+   - Sección de presos políticos
+     - imagenes de los presos
+   - Encarcelamiento de Siqueiros
+     - historia y fotografías de Siqueiros
   - Expocisión
-   - Recorrido de la Expocisión, artefactos
+     - descripción de la expocisión
+    - Objetivo
+      - Recorrido de la Expocisión video 360
+      - artefactos
