@@ -1,17 +1,22 @@
 * {
   font-family: 'Noto Serif', serif;
+  /* outline: 1px solid white; */
 
   }
 
   /* variables */
 :root {
-  --color-primario: #B3A994;
+  --color-primario: #3D3E3D;
   --color-secundario: #33322D;
-  --color-terciario:#2A2B2A;
+  --color-terciario: #C4C5C4;
   --color-link: #661906;
   --color-link-hover: #F4F3ED;
   --altura-header: 75px;
   --altura-seccion: 100vh;
+}
+#menus {
+  background-color: rgba(207, 186, 199, 0.3); 
+
 }
 /* resets */
 body {
@@ -24,9 +29,13 @@ a {
   display: block;
   height: 100%;
   width: 100%;
+  color: white;
+  background-color: rgba(207, 186, 199, 0.3);
 }
 ul {
   list-style-type: none;
+  text-decoration: none;
+  background-color: rgba(207, 186, 199, 0.3);
 }
 h1, h2, h3, h4, h5, h6 {
   padding: 16px 0 16px 0;
@@ -38,8 +47,11 @@ form {
   height: auto;
 }
 #main,#info, #ubicacion, #participantes {
+  padding-left: 0;
+  padding-right: 0;
   padding-top: var(--altura-header);
   text-align: right;
+  color: var(--color-terciario);
 }
 /* header */
 header {
@@ -80,8 +92,15 @@ figure img {
   z-index: -1;
 }
 /* info */
+#proyecto{
+  height: var(----altura-seccion);
+  background-color: rgba(0, 0, 0, 0.6);
+}
 /*  */
 /* Participantes */
+#participantes {
+  background-color: black;
+}
 .participantes_item {
   height: 250px;
   overflow: hidden;
@@ -110,6 +129,58 @@ figure img {
 #ubicacion {
   overflow: hidden;
 }
+#siq {
+  background-color: var(--color-terciario);
+  color: black;
+
+}
+#reco {
+  height: var(--altura-section);
+  z-index: 10;
+}
+.reco_item {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+.reco_item_back {
+  position: absolute;
+  padding: 0;
+  width: 100%;
+}
+.reco_item_back img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+}
+#altas {
+
+}
+
+.altas_item {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+.altas_item_back {
+  position: absolute;
+  padding: 0;
+  width: 100%;
+}
+.altas_item_back img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+}
+
 #map {
   background: url('../img/cruz.png') no-repeat;
   background-size: cover;
